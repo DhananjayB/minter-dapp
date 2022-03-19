@@ -6,13 +6,13 @@
 
 :root {
   --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Arvo', serif;
-  --font-code: 'Roboto', monospace;
+  --font-secondary: 'Poppins', serif;
+  --font-code: 'Poppins', monospace;
   --bg-color: #000000;
   --bg-color-transparent: #323232;
   --font-color: #cffd04;
   --btn-bg-color: #cffd04;
-  --accent-color: #ffffff;
+  --accent-color: #061b75;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
