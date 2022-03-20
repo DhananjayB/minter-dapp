@@ -132,10 +132,22 @@ header .container {
 }
 
 .mint-input-btn {
+  display: inline-block;
+  padding: 2rem 2rem;
   background: var(--btn-bg-color);
   color: var(--accent-color);
-  border-color: transparent;
+  font-family: var(--font-secondary);
   font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  box-shadow: var(--header-shadow);
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  outline: none;
 }
 
 .hero-btn {
