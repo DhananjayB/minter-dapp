@@ -39,6 +39,7 @@ body {
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
+  align-items: center;
   overflow: hidden;
   border-radius: 1rem;
 }
