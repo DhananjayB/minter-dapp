@@ -132,8 +132,8 @@ header .container {
 }
 
 .mint-input-btn {
-  border-radius: 5rem;
-  margin-left: 2rem;
+  background: var(--btn-bg-color);
+  color: var(--accent-color);
   border-color: transparent;
   font-style: normal;
 }
