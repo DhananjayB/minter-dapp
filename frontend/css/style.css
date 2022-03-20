@@ -40,6 +40,7 @@ body {
   padding: 1rem 2rem;
   justify-content: center;
   overflow: hidden;
+  border-radius: 1rem;
 }
 .glass-container {
   background: linear-gradient(
@@ -53,6 +54,14 @@ body {
   padding: 1.5rem;
   border-radius: 1rem;
   animation: 1s cubic-bezier(0.16, 1, 0.3, 1) cardEnter;
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 1rem;
 }
 /* HEADER */
 
@@ -248,6 +257,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: transparent;
 }
 
 .info-container {
