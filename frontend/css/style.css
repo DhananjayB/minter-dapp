@@ -14,7 +14,7 @@
   --accent-color: #2546af;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
-  --border-color: #b9b4b4;
+  --border-color: #000000;
 }
 
 * {
