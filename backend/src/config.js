@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = 'Skulled Pumpkins';
 const description =
-  'This project has collection of unique 10,000 skulled pumpkins. Each skulled pumpkin is in high quality 3D and randomly generated';
+  'This is one of kind project which has collection of unique 10,000 skulled pumpkins. Each item in this collection is in high quality 3D and randomly generated.';
 const baseUri = 'ipfs://NewUriToReplace'; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -66,15 +66,16 @@ const MINT_PRICE = 0.0001; // Minting price per NFT. Rinkeby = ETH, Polygon = MA
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = '2022-03-22T11:30:48+00:00'; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = '2022-03-20T11:30:48+00:00'; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = '2022-03-22T11:30:48+00:00'; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = '2022-03-19T11:30:48+00:00'; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = '0xCF6eEeb79c8374daA373b3fb445bE693FF38d0FB'; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = [
+  '0xCF6eEeb79c8374daA373b3fb445bE693FF38d0FB',
   '0xCF6eEeb79c8374daA373b3fb445bE693FF38d0FB',
 ]; // only update if you want to manually set the whitelisted addresses
 

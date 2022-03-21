@@ -4,7 +4,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 const welcome_h1 = 'Welcome to the Skulled Pumpkins Project!!';
 const welcome_h2 = 'Connect to MetaMask to Get Started';
 const welcome_p =
-  'This is one of kind project which has collection of unique 10,000 skulled pumpkin mascots. Each mascot is in high quality 3D and randomly generated. So mint your own holiday mascots before its gone!';
+  'This is one of kind project which has collection of unique 10,000 skulled pumpkins. Each item in this collection is in high quality 3D and randomly generated.';
 const h1_presale_coming_soon = 'NFT Drop Coming Soon!!';
 const h1_presale_mint = 'Pre-Sale Minting Open!!';
 const h1_public_mint = 'Public Minting Open!!';
