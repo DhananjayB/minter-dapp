@@ -15,7 +15,7 @@ const baseUri = 'ipfs://NewUriToReplace'; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 40,
     layersOrder: [
       { name: 'Background' },
       { name: 'Pumpkin' },
@@ -69,8 +69,8 @@ const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a singl
 const PUBLIC_MINT_START_DATE = '2022-03-22T11:30:48+00:00'; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = '2022-03-19T11:30:48+00:00'; // Optional. Eg: 2022-02-08T11:30:48+00:00
-const ROYALTY_SHARE = 800; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
+const PRESALE_MINT_START_DATE = '2022-03-22T11:30:48+00:00'; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = '0xCF6eEeb79c8374daA373b3fb445bE693FF38d0FB'; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
@@ -84,9 +84,9 @@ let CONTRACT_ADDRESS = 'YOUR CONTRACT ADDRESS'; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = 'Which Skulled Pumkin is for you ?'; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = 'Which Skulled Pumkin will you get?'; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE =
-  'https://ipfs.io/ipfs/bafybeiazxkwwwufvtg23of57jnttqq4pmw4o3dytlhnxcvbi7t4uenvkym'; // Replace with your generic image that will display for all NFTs pre-reveal.
+  'https://ipfs.io/ipfs/bafybeiaj6vcvkyesnzymcyu2n3vxr4qpeurebn5hzfgxidpaxjomyt5lei'; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
