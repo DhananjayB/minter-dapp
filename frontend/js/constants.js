@@ -1,10 +1,10 @@
-const contractAddress = '0xA4e33B2BC95802924215f2f7a89330679C455Cd5'; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = '0x7CDCbad0f36De833AABA7aE7f6d279a948272CF1'; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = 'Welcome to the Skulled Pumpkins Project!!';
 const welcome_h2 = 'Connect to MetaMask to Get Started';
 const welcome_p =
-  'This is unique project which has collection of 10,000 holiday mascots. Each mascot in this collection is one of kind, ronadomly generated, in high quality 3D and comes with lots of cool traits.';
+  'This project has collection of 10,000 skulled pumpkins. Each skulled pumpkin is one of kind, randomly generated, comes in high quality 3D with lots of cool traits.';
 const h1_presale_coming_soon = 'NFT Drop Coming Soon!!';
 const h1_presale_mint = 'Pre-Sale Minting Open!!';
 const h1_public_mint = 'Public Minting Open!!';

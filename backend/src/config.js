@@ -9,13 +9,13 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = 'Skulled Pumpkins';
 const description =
-  'This is unique project which has collection of 10,000 holiday mascots. Each mascot in this collection is one of kind, ronadomly generated, in high quality 3D and comes with lots of cool traits.';
+  'This project has collection of 10,000 skulled pumpkins. Each skulled pumpkin is one of kind, randomly generated, comes in high quality 3D with lots of cool traits.';
 const baseUri = 'ipfs://NewUriToReplace'; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 40,
+    growEditionSizeTo: 10000,
     layersOrder: [
       { name: 'Background' },
       { name: 'Pumpkin' },
@@ -52,24 +52,25 @@ const extraMetadata = {
 
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
-const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const LIMIT = 4; // Your API key rate limit
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'TestSkulledPumpkins';
-const CONTRACT_SYMBOL = 'TSKUP';
+const CONTRACT_NAME = 'Skulled Pumpkins';
+const CONTRACT_SYMBOL = 'SKPU';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xCF6eEeb79c8374daA373b3fb445bE693FF38d0FB';
 const TREASURY_ADDRESS = '0xCF6eEeb79c8374daA373b3fb445bE693FF38d0FB';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.0001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 100; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = '2022-03-24T11:30:48+00:00'; // This is required. Eg: 2022-02-08T11:30:48+00:00
+//'2022-03-28T11:30:48+00:00'
+const PUBLIC_MINT_START_DATE = '2022-04-03T11:30:48+00:00'; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = '2022-03-23T11:30:48+00:00'; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = '2022-04-02T11:30:48+00:00'; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = '0xCF6eEeb79c8374daA373b3fb445bE693FF38d0FB'; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
